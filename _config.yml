@@ -97,5 +97,9 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# Deployment
+# ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:kbsonlong/kbsonlong.github.io.git
+  branch: master
